@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MyAxis"
+  id="myeclipse.1329487572863"
+  context-root="/MyAxis"
+  j2ee-spec="5.0"
+  archive="MyAxis.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

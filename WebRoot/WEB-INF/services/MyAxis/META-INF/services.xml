@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
+<service name="AxisService">
+	<description>AxisService</description>
+	<parameter name="ServiceClass">
+		Axis2Service.service.Calculate
+	</parameter>
+	<operation name="sum">
+		<messageReceiver
+			class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</operation>
+</service>
+</serviceGroup>
+
+<!-- 指定服务名,随便定义 -->
+<!--<service name="ZipKinService">
+	&lt;!&ndash; 服务的作用说明，可写可不写 &ndash;&gt;
+	<description>测试axis2webservices</description>
+	&lt;!&ndash; 指定要发布的类路径  自定义name&ndash;&gt;
+	<parameter name="ServiceClass">
+		com.axis2.TestService
+	</parameter>
+	&lt;!&ndash; 类里面的方法名 ，若有多个方法，可以新增operation标签 &ndash;&gt;
+	<operation name="test">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+</service>-->
+

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyAxis:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyAxis_war</output-path>
+    <root id="archive" name="MyAxis_war.war">
+      <element id="artifact" artifact-name="MyAxis:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/WebRoot" />
+    </root>
+  </artifact>
+</component>
